@@ -41,6 +41,7 @@ class Drawer extends Component {
             links.push({to: '/logout', label: 'Выйти', exact: false})
         } else {
             links.push({to: '/auth', label: 'Авторизация', exact: false})
+            links.push({to: '/quiz-creator', label: 'Создать тест', exact: false})
         }
         return (
             <React.Fragment>
