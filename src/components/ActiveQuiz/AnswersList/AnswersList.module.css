@@ -1,0 +1,12 @@
+.AnswersList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.mistake {
+    color: #fc6c85;
+    font-size:30px;
+    width:1000px;
+}

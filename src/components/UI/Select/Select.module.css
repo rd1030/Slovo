@@ -1,0 +1,51 @@
+.default,
+.orangeTheme {
+    margin-bottom: 15px;
+}
+
+.default,
+.orangeTheme label {
+    margin: 0 0 3px 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.orangeTheme label {
+    font-size: 30px;
+    color: #f5f5dc;
+}
+
+.orangeTheme select {
+    outline: none;
+    display: block;
+    min-width: 250px; 
+    width: 100%;
+    padding: .75rem 2.5rem .75rem 1rem;
+    background: #f9ad89; 
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: inherit;
+    font-size: 30px;
+    color: #f5f5dc;
+}
+.default select {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    margin: 0 0 5px;
+    height: 29px;
+    width: 100%;
+    outline: none;
+    transition: all 300ms easy-in-out;
+}
+
+.orangeTheme option {
+    padding: 25px 10px;
+    font-size: 25px;
+    background-color: #f9ad89;
+    color: #f5f5dc;
+}
+
